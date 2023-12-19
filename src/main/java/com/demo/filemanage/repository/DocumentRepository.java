@@ -1,10 +1,10 @@
 package com.demo.filemanage.repository;
 
 
-import com.demo.filemanage.entity.File;
+import com.demo.filemanage.entity.Document;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface FileRepository extends CrudRepository<File, Long> {
+public interface DocumentRepository extends CrudRepository<Document, Long> {
 }
